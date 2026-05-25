@@ -9,4 +9,11 @@ public class Aluno extends Pessoa {
     public void agende() {
         System.out.println(nome + " está agendando...");
     }
+    
+    public void aprender() {
+        System.out.println(nome + " está aprendendo!");
+    }
+    
+    public String getMtb() { return mtb; }
+    public void setMtb(String mtb) { this.mtb = mtb; }
 }
